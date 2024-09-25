@@ -1,75 +1,60 @@
-body{
-  margin:0px;
-  font-family: Arial, Helvetica, sans-serif;
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
-  background-color: black;
-  padding: 15px;
-  display:flex;
-  color:white;
-  align-items: center;
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
 }
 
-main {
-  padding: 30px;
-  margin:0px;
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
 
-section{
-  display:flex;
+.chamada-texto {
+    margin-right: 5%;
 }
 
-.filme-destaque{
-  background-color: rgb(214, 214, 214);
-  border-radius: 15px;
-  padding:15px;
+h1 {
+    font-size: 40px;
 }
 
-.filmes{
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-  overflow-x:auto;
+p {
+    font-size: 20px;
 }
 
-.filmes img{
-  opacity: 0.5;
-}
-
-.filmes img:hover{
-  opacity: 1;
-}
-
-.description{
-  margin:15px;
-}
-
-.about{
-  display:flex;
-  align-items: center;
-}
-
-.about>*{
-  margin-left:5px;
-}
-
-.capa{
-  width: 200px;
-  height: 300px;
-}
-
-.titulo {
-  font-size: 35px;
-  margin:0px;
-}
-
-.sinopse{
-  overflow-y: auto;
-  max-height: 125px;
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
 
 .categoria {
-  display:flex;
-  justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
 }
